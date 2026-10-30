@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Web 锁定",
+    "description": "闲置超时或手动操作后，用锁屏盖住 Web UI，防止旁人偷看屏幕。后台任务继续运行。"
+  },
+  "overlay": {
+    "title": "屏幕已锁定",
+    "subtitleIdle": "闲置超时后已锁定",
+    "subtitleManual": "已手动锁定",
+    "placeholder": "输入密码解锁",
+    "unlock": "解锁",
+    "unlockAria": "解锁屏幕",
+    "wrong": "密码错误",
+    "hint": "点击任意处或按任意键解锁"
+  },
+  "button": {
+    "label": "锁定屏幕",
+    "title": "立即锁定 Web UI"
+  },
+  "settings": {
+    "idleSeconds": {
+      "label": "闲置锁定阈值（秒）",
+      "help": "鼠标键盘无操作达到该秒数后自动锁屏。设为 0 关闭自动锁。"
+    },
+    "password": {
+      "label": "解锁密码",
+      "help": "设置后解锁需输入正确密码；留空则点击或按键即可解锁。"
+    },
+    "lockOnBlur": {
+      "label": "切走标签页即锁定",
+      "help": "切换到其他标签页或窗口时立即锁定。"
+    },
+    "showClock": {
+      "label": "锁屏显示时钟",
+      "help": "在锁屏界面显示当前时间。"
+    },
+    "showManualButton": {
+      "label": "显示手动锁按钮",
+      "help": "在侧边栏底部添加「锁定屏幕」操作。"
+    }
+  }
+}

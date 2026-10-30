@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "title": "My DSH Plugins",
+  "description": "Community bundles published for the DSH plugin market.",
+  "metadata": {
+    "categories": {
+      "ui": { "title": { "en": "UI", "zh": "界面" } }
+    },
+    "labels": {
+      "privacy": { "title": { "en": "Privacy", "zh": "隐私" } }
+    },
+    "sortKeys": {
+      "published": { "title": { "en": "Recently published", "zh": "最近发布" }, "order": "desc" }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@local/dsh-web-locker",
+      "title": { "en": "Web Locker", "zh": "Web 锁定" },
+      "description": {
+        "en": "Idle-locks the DSH Web UI with a visual screen-occlusion overlay so a passer-by cannot read the screen. Background agents and tools keep running.",
+        "zh": "在闲置时以视觉遮罩层锁定 DSH Web 界面，防止旁人窥屏；后台 Agent 与工具继续运行。"
+      },
+      "icon": "./icon.svg",
+      "author": "your-name",
+      "homepage": "https://github.com/your-name/dsh-web-locker",
+      "repository": {
+        "url": "https://github.com/your-name/dsh-web-locker",
+        "directory": "dsh-web-locker"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": ["lock", "privacy", "idle", "screen"],
+        "labels": ["privacy"],
+        "sortKeys": { "published": 1 }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1761705600,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/your-name/dsh-web-locker",
+            "commit": "0000000000000000000000000000000000000000",
+            "path": "dsh-web-locker"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

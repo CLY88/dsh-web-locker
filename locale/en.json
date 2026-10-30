@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Web Locker",
+    "description": "Covers the Web UI with a lock screen after idle timeout or a manual action, so a passer-by cannot read the screen. Background work keeps running."
+  },
+  "overlay": {
+    "title": "Screen locked",
+    "subtitleIdle": "Locked after idle timeout",
+    "subtitleManual": "Locked manually",
+    "placeholder": "Enter password to unlock",
+    "unlock": "Unlock",
+    "unlockAria": "Unlock the screen",
+    "wrong": "Wrong password",
+    "hint": "Click anywhere or press any key to unlock"
+  },
+  "button": {
+    "label": "Lock screen",
+    "title": "Lock the Web UI now"
+  },
+  "settings": {
+    "idleSeconds": {
+      "label": "Idle lock timeout (seconds)",
+      "help": "Lock the screen after this many seconds without mouse or keyboard activity. 0 disables auto-lock."
+    },
+    "password": {
+      "label": "Unlock password",
+      "help": "If set, the password is required to unlock. Leave empty to unlock by click or keypress."
+    },
+    "lockOnBlur": {
+      "label": "Lock when tab loses focus",
+      "help": "Lock immediately when you switch to another tab or window."
+    },
+    "showClock": {
+      "label": "Show clock on lock screen",
+      "help": "Display the current time on the lock screen."
+    },
+    "showManualButton": {
+      "label": "Show manual lock button",
+      "help": "Add a 'Lock screen' action to the sidebar footer."
+    }
+  }
+}
