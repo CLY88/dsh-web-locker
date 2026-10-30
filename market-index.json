@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "title": "My DSH Plugins",
+  "title": "CLY88 DSH Plugins",
   "description": "Community bundles published for the DSH plugin market.",
   "metadata": {
     "categories": {
@@ -15,17 +15,17 @@
   },
   "plugins": [
     {
-      "name": "@local/dsh-web-locker",
+      "name": "dsh-web-locker",
       "title": { "en": "Web Locker", "zh": "Web 锁定" },
       "description": {
         "en": "Idle-locks the DSH Web UI with a visual screen-occlusion overlay so a passer-by cannot read the screen. Background agents and tools keep running.",
         "zh": "在闲置时以视觉遮罩层锁定 DSH Web 界面，防止旁人窥屏；后台 Agent 与工具继续运行。"
       },
       "icon": "./icon.svg",
-      "author": "your-name",
-      "homepage": "https://github.com/your-name/dsh-web-locker",
+      "author": "CLY88",
+      "homepage": "https://github.com/CLY88/dsh-web-locker",
       "repository": {
-        "url": "https://github.com/your-name/dsh-web-locker",
+        "url": "https://github.com/CLY88/dsh-web-locker",
         "directory": "dsh-web-locker"
       },
       "metadata": {
@@ -37,11 +37,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1761705600,
+          "publishTimestamp": 1769580000,
           "source": {
             "type": "git",
-            "url": "https://github.com/your-name/dsh-web-locker",
-            "commit": "0000000000000000000000000000000000000000",
+            "url": "https://github.com/CLY88/dsh-web-locker",
+            "commit": "ac7a291b1e077d00f8072fb86ddda0b8c1691e46",
             "path": "dsh-web-locker"
           },
           "engines": {
